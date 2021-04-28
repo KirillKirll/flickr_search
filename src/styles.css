@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.header {
+  height: 50px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.icon-container {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 25px;
+}
+
+.account-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.mainBox {
+  display: flex;
+  height: 87.5vh;
+}
+
+.menu {
+  flex-direction: column;
+  width: 80px;
+  border: 1px solid black;
+}
+
+.menu-button {
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+  border: none;
+}
+
+.isActiveSearch {
+  border: 1px solid black;
+}
+
+.isActiveBookmark {
+  border: 1px solid black;
+}
+
+.menu-icon {
+  height: 30px;
+}
+
+.content {
+  width: 100%;
+}
+
+.search-input {
+  margin: 20px;
+  padding: 10px;
+  width: 90%;
+}
+
+.content-box {
+  height: 88.5%;
+}
+
+.images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.pages {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.page-info {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.page-button {
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 10px;
+}
+
+.photo-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.content-images {
+  height: 175px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookmark-button {
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.no-images {
+  margin-left: 20px;
+}
+
+.bookmark-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 10px;
+}
+
+.bookmark-tags {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.footer {
+  height: 50px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
